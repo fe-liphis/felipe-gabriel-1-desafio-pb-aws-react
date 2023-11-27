@@ -2,6 +2,7 @@
 @import url(components/containers.css);
 @import url(components/titulos.css);
 @import url(components/botoes.css);
+@import url(components/textos.css);
 
 .ajuste-margin-top {
     margin-top: 1rem;

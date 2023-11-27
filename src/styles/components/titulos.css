@@ -3,10 +3,14 @@
     font-weight: var(--weight-titulo);
 }
 
-.principal {
+.ttl-principal {
     font-size: calc(1rem * 5);
 }
 
-.secundario {
+.ttl-secundario {
     font-size: calc(1rem * 1.32);
+}
+
+.ttl-introducao {
+    font-size: calc(1rem * 1.775);
 }
