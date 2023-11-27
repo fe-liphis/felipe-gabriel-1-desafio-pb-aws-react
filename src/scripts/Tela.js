@@ -20,4 +20,9 @@ class Tela {
         this.index++;
         this.atualizaTela();
     }
+
+    voltaTela() {
+        this.index--;
+        this.atualizaTela();
+    }
 }
