@@ -18,3 +18,9 @@
 .btn-tamanho-pequeno {
     width: 200px;
 }
+
+.lista-btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}

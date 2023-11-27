@@ -6,4 +6,5 @@
 .txt-introducao {
     font-size: calc(1rem * 1.273);
     text-align: center;
+    width: 16em;
 }
