@@ -1,0 +1,4 @@
+.estrutura {
+    display: flex;
+    grid-column: 1fr 1fr;
+}
