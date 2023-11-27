@@ -1,0 +1,12 @@
+.titulo {
+    font-family: var(--font);
+    font-weight: var(--weight-titulo);
+}
+
+.principal {
+    font-size: calc(1rem * 5);
+}
+
+.secundario {
+    font-size: calc(1rem * 1.32);
+}

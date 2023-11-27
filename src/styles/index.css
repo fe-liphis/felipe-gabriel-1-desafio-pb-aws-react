@@ -1,0 +1,14 @@
+@import url(variaveis.css);
+@import url(components/estrutura-principal.css);
+@import url(components/titulos.css);
+@import url(components/botoes.css);
+@import url(components/estrutura-texto.css);
+
+main {
+    height: 100vh;
+    width: 100vw;
+}
+
+.ajuste-margin-top {
+    margin-top: 1rem;
+}

@@ -1,0 +1,19 @@
+.btn {
+    background-color: var(--cor-bg-btn);
+    color: var(--cor-txt-btn);
+    border: none;
+    font-family: var(--font);
+    font-weight: var(--weight-titulo);
+    font-size: var(--font-size-btn);
+    border-radius: var(--font-size-btn);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--cor-bg-btn-hover);
+    color: var(--cor-btn-hover);
+}
+
+.btn-tamanho-pequeno {
+    padding: calc(var(--font-size-btn) * 0.25) calc(var(--font-size-btn) * 3);
+}
