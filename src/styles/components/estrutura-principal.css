@@ -1,7 +1,0 @@
-.estrutura-principal {
-    display: flex;
-    grid-column: 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-    gap: 80px;
-}
