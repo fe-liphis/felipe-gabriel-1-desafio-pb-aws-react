@@ -17,10 +17,18 @@
 
 .btn-tamanho-pequeno {
     width: 200px;
+    grid-area: btn-pequeno;
+}
+
+.btn-tamanho-grande {
+    width: 420px;
+    grid-area: btn-grande;
 }
 
 .lista-btns {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    justify-content: center;
+    width: 420px;
+    gap: 0.65rem 0.8rem;
 }
