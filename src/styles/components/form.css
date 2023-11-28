@@ -58,3 +58,10 @@ legend.ttl-form {
 .input-checkbox:checked {
     background-color: var(--cor-input-selecionado);
 }
+
+.txt-area {
+    width: 460px;
+    height: 225px;
+    border-radius: 20px;
+    border: 1px solid #00000040;
+}

@@ -19,5 +19,6 @@
 
 .ttl-form {
     font-size: 1.185rem;
+    word-break: keep-all;
     width: 20em;
 }
