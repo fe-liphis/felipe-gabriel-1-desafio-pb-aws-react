@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="src/styles/reset.css">
     <link rel="stylesheet" href="src/styles/index.css">
 
+    <script src="src/scripts/Form.js" defer></script>
     <script src="src/scripts/Tela.js" defer></script>
     <script src="src/scripts/index.js" defer></script>
 </head>
@@ -65,9 +66,8 @@
                         <label class="titulo ttl-form" for="status-account">What is the status of your account?</label>
 
                         <select name="status-account" id="status-account" class="txt-form input-select">
+                            <option value="" disabled selected>Select a option:</option>
                             <option value="not-account">I have not created an account yet.</option>
-                            <option value=""></option>
-                            <option value=""></option>
                         </select>
                     </p>
 
@@ -76,23 +76,28 @@
 
                         <ul class="opcoes-form">
                             <li class="opcao-form">
-                                <input type="radio" name="financial-markets" id="financial-markets" class="input-radio">
+                                <input type="radio" name="financial-markets" class="input-radio financial-markets"
+                                    value="stock-market">
                                 <label for="financial-markets" class="txt-form">stock market</label>
                             </li>
                             <li class="opcao-form">
-                                <input type="radio" name="financial-markets" id="financial-markets" class="input-radio">
+                                <input type="radio" name="financial-markets" class="input-radio financial-markets"
+                                    value="foreing-exchange">
                                 <label for="financial-markets" class="txt-form">foreign exchange</label>
                             </li>
                             <li class="opcao-form">
-                                <input type="radio" name="financial-markets" id="financial-markets" class="input-radio">
+                                <input type="radio" name="financial-markets" class="input-radio financial-markets"
+                                    value="commodity">
                                 <label for="financial-markets" class="txt-form">commodity</label>
                             </li>
                             <li class="opcao-form">
-                                <input type="radio" name="financial-markets" id="financial-markets" class="input-radio">
+                                <input type="radio" name="financial-markets" class="input-radio financial-markets"
+                                    value="bond-market">
                                 <label for="financial-markets" class="txt-form">bond market</label>
                             </li>
                             <li class="opcao-form">
-                                <input type="radio" name="financial-markets" id="financial-markets" class="input-radio">
+                                <input type="radio" name="financial-markets" class="input-radio financial-markets"
+                                    value="cryptocurrency-market">
                                 <label for="financial-markets" class="txt-form">cryptocurrency market</label>
                             </li>
                         </ul>

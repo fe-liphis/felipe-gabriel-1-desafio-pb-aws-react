@@ -1,4 +1,5 @@
 class Tela {
+    form = new Form();
     telas = document.querySelectorAll('.tela');
     index = 0;
 
@@ -9,15 +10,25 @@ class Tela {
     atualizaTela() {
         this.telas.forEach((tela, key) => {
             if(key === this.index)
-                tela.style.display = 'flex';
+                tela.style.display = 'grid';
             else
                 tela.style.display = 'none';
-        })
+        });
     }
 
     proximaTela() {
-        this.index++;
-        this.atualizaTela();
+        console.log(this.index);
+        if (this.index >= 2) {
+            const validacao = this.form.validaInputs(this.index);
+            
+            if(validacao) {
+                this.index++;
+                this.atualizaTela();
+            }
+        } else {
+            this.index++;
+            this.atualizaTela();
+        }
     }
 
     voltaTela() {
