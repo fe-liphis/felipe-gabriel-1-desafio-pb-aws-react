@@ -64,41 +64,36 @@
                     <p class="campo-form">
                         <label class="titulo ttl-form" for="status-account">What is the status of your account?</label>
 
-                        <select name="status-account" id="status-account">
+                        <select name="status-account" id="status-account" class="txt-form input-select">
                             <option value="not-account">I have not created an account yet.</option>
                             <option value=""></option>
                             <option value=""></option>
                         </select>
                     </p>
 
-                    <fieldset>
+                    <fieldset class="campo-form">
                         <legend class="titulo ttl-form">In which financial markets do you operate?</legend>
 
-                        <ul class="campo-form">
+                        <ul class="opcoes-form">
                             <li class="opcao-form">
-                                <input type="radio" name="financial-markets" id="financial-markets"
-                                    class="input-selecionavel">
-                                <label for="financial-markets">stock market</label>
+                                <input type="radio" name="financial-markets" id="financial-markets" class="input-radio">
+                                <label for="financial-markets" class="txt-form">stock market</label>
                             </li>
                             <li class="opcao-form">
-                                <input type="radio" name="financial-markets" id="financial-markets"
-                                    class="input-selecionavel">
-                                <label>foreign exchange</label>
+                                <input type="radio" name="financial-markets" id="financial-markets" class="input-radio">
+                                <label for="financial-markets" class="txt-form">foreign exchange</label>
                             </li>
                             <li class="opcao-form">
-                                <input type="radio" name="financial-markets" id="financial-markets"
-                                    class="input-selecionavel">
-                                <label>commodity</label>
+                                <input type="radio" name="financial-markets" id="financial-markets" class="input-radio">
+                                <label for="financial-markets" class="txt-form">commodity</label>
                             </li>
                             <li class="opcao-form">
-                                <input type="radio" name="financial-markets" id="financial-markets"
-                                    class="input-selecionavel">
-                                <label>bond market</label>
+                                <input type="radio" name="financial-markets" id="financial-markets" class="input-radio">
+                                <label for="financial-markets" class="txt-form">bond market</label>
                             </li>
                             <li class="opcao-form">
-                                <input type="radio" name="financial-markets" id="financial-markets"
-                                    class="input-selecionavel">
-                                <label>cryptocurrency market</label>
+                                <input type="radio" name="financial-markets" id="financial-markets" class="input-radio">
+                                <label for="financial-markets" class="txt-form">cryptocurrency market</label>
                             </li>
                         </ul>
                     </fieldset>
@@ -117,6 +112,69 @@
                 </ul>
             </section>
         </section>
+
+        <section class="tela container-conteudo">
+            <figure>
+                <img src="public/assets/personagem/personagem-tela-4.svg" alt="">
+            </figure>
+
+            <section class="container-form">
+                <form class="container-form">
+                    <p class="campo-form">
+                        <label class="titulo ttl-form" for="decide-invest">How do you decide to invest?</label>
+
+                        <select name="decide-invest" id="decide-invest" class="txt-form input-select">
+                            <option value="not-account">I have not invested yet.</option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </p>
+
+                    <fieldset class="campo-form">
+                        <legend class="titulo ttl-form">What resources have you used or are you using for your training?
+                        </legend>
+
+                        <ul class="opcoes-form">
+                            <li class="opcao-form">
+                                <input type="checkbox" name="resources-training" id="resources-training"
+                                    class="input-checkbox">
+                                <label for="resources-training" class="txt-form">Books and articles</label>
+                            </li>
+                            <li class="opcao-form">
+                                <input type="checkbox" name="resources-training" id="resources-training"
+                                    class="input-checkbox">
+                                <label for="resources-training" class="txt-form">YouTube tutorial videos</label>
+                            </li>
+                            <li class="opcao-form">
+                                <input type="checkbox" name="resources-training" id="resources-training"
+                                    class="input-checkbox">
+                                <label for="resources-training" class="txt-form">online or face to face courses</label>
+                            </li>
+                            <li class="opcao-form">
+                                <input type="checkbox" name="resources-training" id="resources-training"
+                                    class="input-checkbox">
+                                <label for="resources-training" class="txt-form">experience with little
+                                    investment</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </form>
+
+                <ul class="lista-btns">
+                    <li>
+                        <button class="btn btn-tamanho-pequeno btn-volta-tela">Back</button>
+                    </li>
+                    <li>
+                        <button class="btn btn-tamanho-pequeno btn-prox-tela">Next</button>
+                    </li>
+                    <li>
+                        <button class="btn btn-tamanho-grande btn-prox-tela">Skip</button>
+                    </li>
+                </ul>
+            </section>
+        </section>
+
+        
     </main>
 </body>
 

@@ -1,11 +1,13 @@
 .campo-form {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.75rem;
 }
 
-legend.ttl-form {
-    margin-bottom: 0.5rem;
+.opcoes-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 .opcao-form {
@@ -14,15 +16,45 @@ legend.ttl-form {
     gap: 0.5rem;
 }
 
-.input-selecionavel {
+legend.ttl-form {
+    margin-bottom: 0.8rem;
+}
+
+.input-radio {
     appearance: none;
     background: var(--cor-input-nao-selecionado);
     width: 1rem;
     height: 1rem;
     border-radius: 50%;
     cursor: pointer;
+    margin: 0;
 }
 
-.input-selecionavel:checked {
+.input-radio:checked {
+    background-color: var(--cor-input-selecionado);
+}
+
+.txt-form {
+    font-size: 1.2rem;
+    font-family: var(--font);
+    font-weight: var(--weight-texto);
+}
+
+.input-select {
+    width: 460px;
+    border: 1px solid #475242;
+    padding: 5px 0.75rem;
+    border-radius: 1rem;
+}
+
+.input-checkbox {
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    background-color: var(--cor-input-nao-selecionado);
+    border-radius: 5px;
+}
+
+.input-checkbox:checked {
     background-color: var(--cor-input-selecionado);
 }
