@@ -3,6 +3,7 @@
 @import url(components/titulos.css);
 @import url(components/botoes.css);
 @import url(components/textos.css);
+@import url(components/form.css);
 
 .ajuste-margin-top {
     margin-top: 1rem;

@@ -1,0 +1,9 @@
+.campo-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+legend.ttl-form {
+    margin-bottom: 0.5rem;
+}
