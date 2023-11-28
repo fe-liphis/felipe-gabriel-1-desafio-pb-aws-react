@@ -28,7 +28,7 @@
 .lista-btns {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     width: 420px;
-    gap: 0.65rem 0.8rem;
+    gap: 16px;
 }

@@ -8,3 +8,7 @@
 .ajuste-margin-top {
     margin-top: 1rem;
 }
+
+.telaAtual {
+    display: flex;
+}

@@ -62,10 +62,10 @@
             <section class="container-form">
                 <form class="container-form">
                     <p class="campo-form">
-                        <label class="titulo ttl-form">What is the status of your account?</label>
+                        <label class="titulo ttl-form" for="status-account">What is the status of your account?</label>
 
-                        <select name="" id="">
-                            <option value="">I have not created an account yet.</option>
+                        <select name="status-account" id="status-account">
+                            <option value="not-account">I have not created an account yet.</option>
                             <option value=""></option>
                             <option value=""></option>
                         </select>
@@ -75,24 +75,29 @@
                         <legend class="titulo ttl-form">In which financial markets do you operate?</legend>
 
                         <ul class="campo-form">
-                            <li>
-                                <input type="radio" name="" id="">
-                                <label>stock market</label>
+                            <li class="opcao-form">
+                                <input type="radio" name="financial-markets" id="financial-markets"
+                                    class="input-selecionavel">
+                                <label for="financial-markets">stock market</label>
                             </li>
-                            <li>
-                                <input type="radio" name="" id="">
+                            <li class="opcao-form">
+                                <input type="radio" name="financial-markets" id="financial-markets"
+                                    class="input-selecionavel">
                                 <label>foreign exchange</label>
                             </li>
-                            <li>
-                                <input type="radio" name="" id="">
+                            <li class="opcao-form">
+                                <input type="radio" name="financial-markets" id="financial-markets"
+                                    class="input-selecionavel">
                                 <label>commodity</label>
                             </li>
-                            <li>
-                                <input type="radio" name="" id="">
+                            <li class="opcao-form">
+                                <input type="radio" name="financial-markets" id="financial-markets"
+                                    class="input-selecionavel">
                                 <label>bond market</label>
                             </li>
-                            <li>
-                                <input type="radio" name="" id="">
+                            <li class="opcao-form">
+                                <input type="radio" name="financial-markets" id="financial-markets"
+                                    class="input-selecionavel">
                                 <label>cryptocurrency market</label>
                             </li>
                         </ul>

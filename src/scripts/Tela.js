@@ -12,7 +12,6 @@ class Tela {
                 tela.style.display = 'flex';
             else
                 tela.style.display = 'none';
-
         })
     }
 
