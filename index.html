@@ -129,9 +129,8 @@
                         <label class="titulo ttl-form" for="decide-invest">How do you decide to invest?</label>
 
                         <select name="decide-invest" id="decide-invest" class="txt-form input-select">
-                            <option value="not-account">I have not invested yet.</option>
-                            <option value=""></option>
-                            <option value=""></option>
+                            <option value="" disabled selected>Select a option:</option>
+                            <option value="not-invested">I have not invested yet.</option>
                         </select>
                     </p>
 
@@ -141,23 +140,23 @@
 
                         <ul class="opcoes-form">
                             <li class="opcao-form">
-                                <input type="checkbox" name="resources-training" id="resources-training"
-                                    class="input-checkbox">
+                                <input type="checkbox" name="resources-training" class="input-checkbox"
+                                    value="books-and-articles">
                                 <label for="resources-training" class="txt-form">Books and articles</label>
                             </li>
                             <li class="opcao-form">
-                                <input type="checkbox" name="resources-training" id="resources-training"
-                                    class="input-checkbox">
+                                <input type="checkbox" name="resources-training" class="input-checkbox"
+                                    value="ytb-videos">
                                 <label for="resources-training" class="txt-form">YouTube tutorial videos</label>
                             </li>
                             <li class="opcao-form">
-                                <input type="checkbox" name="resources-training" id="resources-training"
-                                    class="input-checkbox">
+                                <input type="checkbox" name="resources-training" class="input-checkbox"
+                                    value="online-and-face-to-face">
                                 <label for="resources-training" class="txt-form">online or face to face courses</label>
                             </li>
                             <li class="opcao-form">
-                                <input type="checkbox" name="resources-training" id="resources-training"
-                                    class="input-checkbox">
+                                <input type="checkbox" name="resources-training" class="input-checkbox"
+                                    value="exp-with-investment">
                                 <label for="resources-training" class="txt-form">experience with little
                                     investment</label>
                             </li>
@@ -241,7 +240,7 @@
                         <button class="btn btn-tamanho-grande btn-volta-tela">Back</button>
                     </li>
                     <li>
-                        <button class="btn btn-tamanho-grande">Submit</button>
+                        <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-tamanho-grande" />
                     </li>
                 </ul>
             </section>
