@@ -4,15 +4,19 @@
 }
 
 .ttl-principal {
-    font-size: calc(1rem * 5);
+    font-size: 5rem;
 }
 
 .ttl-secundario {
-    font-size: calc(1rem * 1.32);
+    font-size: 1.32rem;
 }
 
 .ttl-introducao {
-    font-size: calc(1rem * 1.775);
+    font-size: 1.775rem;
     text-align: center;
     width: 15em;
+}
+
+.label-form {
+    font-size: 1.185rem;
 }
