@@ -24,4 +24,9 @@ class Tela {
         this.index--;
         this.atualizaTela();
     }
+
+    pulaTela() {
+        this.index++;
+        this.atualizaTela();
+    }
 }
