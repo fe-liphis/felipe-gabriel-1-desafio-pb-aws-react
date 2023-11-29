@@ -16,7 +16,7 @@ class Tela {
     }
 
     proximaTela() {
-        if(Tela.index > this.telas.length) {
+        if(Tela.index >= this.telas.length - 1) {
             Tela.index = 0;
             this.atualizaTela();
         } else {

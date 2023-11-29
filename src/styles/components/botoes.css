@@ -17,18 +17,31 @@
 
 .btn-tamanho-pequeno {
     width: 200px;
-    grid-area: btn-pequeno;
+    font-size: 15px;
 }
 
 .btn-tamanho-grande {
     width: 420px;
-    grid-area: btn-grande;
 }
 
 .lista-btns {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 420px;
-    gap: 16px;
+    width: fit-content;
+    gap: 27px;
+}
+
+@media (max-width: 480px) {
+    .btn-tamanho-pequeno {
+        width: 142px;
+    }
+
+    .btn-tamanho-grande{
+        width: 302px;
+    }
+
+    .lista-btns {
+        gap: 18px;
+    }
 }

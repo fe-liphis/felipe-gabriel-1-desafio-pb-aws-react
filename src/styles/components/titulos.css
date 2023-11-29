@@ -22,3 +22,17 @@
     word-break: keep-all;
     width: 20em;
 }
+
+@media (max-width: 480px) {
+    .ttl-principal {
+        font-size: 2.41rem;
+    }
+
+    .ttl-secundario {
+        font-size: 1rem;
+    }
+
+    .ttl-introducao {
+        font-size: 30px;
+    }
+}

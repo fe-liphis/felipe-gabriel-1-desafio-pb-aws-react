@@ -8,3 +8,10 @@
     text-align: center;
     width: 16em;
 }
+
+@media(max-width: 480px) {
+    .txt-introducao {
+        font-size: 18px;
+        width: 333px;
+    }
+}
