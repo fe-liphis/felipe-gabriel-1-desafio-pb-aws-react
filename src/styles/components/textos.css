@@ -4,13 +4,13 @@
 }
 
 .txt-introducao {
-    font-size: calc(1rem * 1.273);
+    font-size: 28px;
     text-align: center;
     width: 16em;
 }
 
 .txt-form {
-    font-size: 1.2rem;
+    font-size: 27px;
     font-family: var(--font);
     font-weight: var(--weight-texto);
 }

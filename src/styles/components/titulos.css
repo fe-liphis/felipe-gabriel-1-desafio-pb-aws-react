@@ -4,21 +4,21 @@
 }
 
 .ttl-principal {
-    font-size: 5rem;
+    font-size: 111px;
 }
 
 .ttl-secundario {
-    font-size: 1.32rem;
+    font-size: 29px;
 }
 
 .ttl-introducao {
-    font-size: 1.775rem;
+    font-size: 39px;
     text-align: center;
     width: 15em;
 }
 
 .ttl-form {
-    font-size: 1.185rem;
+    font-size: 26px;
     word-break: keep-all;
     width: 20em;
 }

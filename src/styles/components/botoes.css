@@ -16,18 +16,23 @@
 
 .btn-tamanho-pequeno {
     width: 200px;
-    font-size: 15px;
+    height: 36px;
+    font-size: 22px;
 }
 
 .btn-tamanho-grande {
     width: 420px;
-    font-size: 15px;
+    height: 36px;
+    font-size: 22px;
 }
 
 .lista-btns {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    width: 427px;
+    column-gap: 27px;
+    row-gap: 15px;
 }
 
 @media (max-width: 480px) {
