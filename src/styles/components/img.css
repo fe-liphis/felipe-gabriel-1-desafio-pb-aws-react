@@ -18,6 +18,11 @@
     height: 528px;
 }
 
+.personagem-5 {
+    width: 553px;
+    height: 521px;
+}
+
 @media (max-width: 480px) {
     .personagem-1 {
         width: 271px;
@@ -37,5 +42,10 @@
     .personagem-4 {
         width: 380px;
         height: 363px;
+    }
+
+    .personagem-5 {
+        width: 361px;
+        height: 340px;
     }
 }
