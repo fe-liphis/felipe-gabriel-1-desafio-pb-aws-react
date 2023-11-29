@@ -38,4 +38,9 @@
     .container-texto {
         gap: 22px;
     }
+
+    .container-form {
+        align-items: center;
+        gap: 24px;
+    }
 }

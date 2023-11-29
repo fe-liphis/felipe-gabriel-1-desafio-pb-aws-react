@@ -7,7 +7,6 @@
     font-size: var(--font-size-btn);
     border-radius: var(--font-size-btn);
     cursor: pointer;
-    padding: 6px 8px;
 }
 
 .btn:hover {
@@ -22,26 +21,30 @@
 
 .btn-tamanho-grande {
     width: 420px;
+    font-size: 15px;
 }
 
 .lista-btns {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: fit-content;
-    gap: 27px;
 }
 
 @media (max-width: 480px) {
     .btn-tamanho-pequeno {
         width: 142px;
+        height: 26px;
+        flex-basis: 1;
     }
 
     .btn-tamanho-grande{
         width: 302px;
+        height: 26px;
+        flex-basis: 2;
     }
 
     .lista-btns {
-        gap: 18px;
+        width: 302px;
+        gap: 10px;
     }
 }
