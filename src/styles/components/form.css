@@ -35,10 +35,24 @@ legend.ttl-form {
 }
 
 .input-select {
+    appearance: none;
     width: 460px;
+    height: 52px;
     border: 1px solid #475242;
-    padding: 5px 0.75rem;
-    border-radius: 1rem;
+    padding-left: 45px;
+    border-radius: 20px;
+    background-image: url(../../../public/assets/seta/seta-inativa.svg);
+    background-repeat: no-repeat;
+    background-position: 15px;
+    cursor: pointer;
+}
+
+.input-select option[value=""][disabled] {
+    display: none;
+}
+
+.input-select:focus {
+    background-image: url(../../../public/assets/seta/seta-ativa.svg);
 }
 
 .input-checkbox {
@@ -105,6 +119,15 @@ legend.ttl-form {
         gap: 8.18px;
     }
 
+    .input-select {
+        padding-left: 30px;
+    }
+
+    .input-select, .input-select:focus {
+        background-position: 10px;
+        background-size: 14px 9px;
+    }
+
     .input-checkbox {
         width: 13.8px;
         height: 13.8px;
@@ -120,10 +143,12 @@ legend.ttl-form {
     .inputs-finais-grande {
         width: 278px;
         height: 33px;
+        font-size: 16px;
     }
 
     .input-age {
         width: 111px;
         height: 33px;
+        font-size: 16px;
     }
 }
