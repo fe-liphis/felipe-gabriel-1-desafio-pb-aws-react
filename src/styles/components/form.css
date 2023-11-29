@@ -96,4 +96,13 @@ legend.ttl-form {
     .opcoes-form {
         gap: 5px;
     }
+    
+    .opcao-form {
+        gap: 8.18px;
+    }
+
+    .input-checkbox {
+        width: 13.8px;
+        height: 13.8px;
+    }
 }
