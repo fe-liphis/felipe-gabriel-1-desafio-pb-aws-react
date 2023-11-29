@@ -63,14 +63,12 @@ legend.ttl-form {
 .inputs-finais-grande {
     width: 460px;
     border-radius: 20px;
-    padding: 10px 20px;
     border: 1px solid #00000040;
 }
 
 .input-age {
     width: 130px;
     border-radius: 20px;
-    padding: 10px 20px;
     border: 1px solid #00000040;
 }
 
@@ -111,5 +109,15 @@ legend.ttl-form {
         height: 131px;
         border-radius: 20px;
         border: 1px solid #00000040;
+    }
+
+    .inputs-finais-grande {
+        width: 278px;
+        height: 33px;
+    }
+
+    .input-age {
+        width: 111px;
+        height: 33px;
     }
 }
