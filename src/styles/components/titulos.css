@@ -165,14 +165,22 @@
     .ttl-secundario {
         font-size: 20px;
     }
+
+    .ttl-introducao {
+        font-size: 28px;
+    }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 375px) {
     .ttl-principal {
         font-size: 46px;
     }
 
     .ttl-secundario {
         font-size: 18px;
+    }
+
+    .ttl-introducao {
+        font-size: 26px;
     }
 }

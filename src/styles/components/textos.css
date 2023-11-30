@@ -84,10 +84,19 @@
 @media(max-width: 480px) {
     .txt-introducao {
         font-size: 18px;
-        width: 333px;
     }
 
     .txt-form {
         font-size: 16px;
+    }
+}
+
+@media (max-width: 375px) {
+    .txt-introducao {
+        font-size: 16px;
+    }
+
+    .txt-form {
+        font-size: 14px;
     }
 }

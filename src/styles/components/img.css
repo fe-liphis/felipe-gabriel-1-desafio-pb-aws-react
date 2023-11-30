@@ -239,3 +239,21 @@
         height: 353px;
     }
 }
+
+@media (max-width: 425px) {
+    .personagem-2 {
+        width: 350px;
+    }
+}
+
+@media (max-width: 375px) {
+    .personagem-2 {
+        width: 325px;
+    }
+}
+
+@media (max-width: 320px) {
+    .personagem-2 {
+        width: 300px;
+    }
+}
