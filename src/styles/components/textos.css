@@ -19,11 +19,19 @@
     .txt-introducao {
         font-size: 26px;
     }
+
+    .txt-form {
+        font-size: 22px;
+    }
 }
 
 @media (max-width: 1000px) {
     .txt-introducao {
         font-size: 22px;
+    }
+    
+    .txt-form {
+        font-size: 20px;
     }
 }
 
@@ -31,11 +39,19 @@
     .txt-introducao {
         font-size: 20px;
     }
+
+    .txt-form {
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 800px) {
     .txt-introducao {
         font-size: 18px;
+    }
+
+    .txt-form {
+        font-size: 16px;
     }
 }
 
@@ -43,11 +59,19 @@
     .txt-introducao {
         font-size: 16px;
     }
+
+    .txt-form {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 600px) {
     .txt-introducao {
         font-size: 14px;
+    }
+
+    .txt-form {
+        font-size: 12px;
     }
 }
 

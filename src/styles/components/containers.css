@@ -26,7 +26,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 1.5rem;
+    gap: 33px;
 }
 
 
@@ -71,6 +71,10 @@
     .container-texto {
         gap: 30px;
     }
+
+    .container-form {
+        gap: 25px;
+    }
 }
 
 @media (max-width: 700px) {
@@ -89,6 +93,10 @@
     }
 
     .container-texto {
+        gap: 20px;
+    }
+
+    .container-form {
         gap: 20px;
     }
 }
