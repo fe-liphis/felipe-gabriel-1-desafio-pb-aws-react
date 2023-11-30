@@ -9,7 +9,7 @@ class Tela {
     atualizaTela() {
         this.telas.forEach((tela, key) => {
             if(key === Tela.index)
-                tela.style.display = 'grid';
+                tela.style.display = 'flex';
             else
                 tela.style.display = 'none';
         });

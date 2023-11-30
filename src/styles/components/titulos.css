@@ -23,13 +23,79 @@
     width: 20em;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1000px) {
     .ttl-principal {
-        font-size: 2.41rem;
+        font-size: 100px;
     }
 
     .ttl-secundario {
-        font-size: 1rem;
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 900px) {
+    .ttl-principal {
+        font-size: 85px;
+    }
+
+    .ttl-secundario {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 800px) {
+    .ttl-principal {
+        font-size: 75px;
+    }
+
+    .ttl-secundario {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .ttl-principal {
+        font-size: 70px;
+    }
+
+    .ttl-secundario {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 650px) {
+    .ttl-principal {
+        font-size: 65px;
+    }
+
+    .ttl-secundario {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .ttl-principal {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 550px) {
+    .ttl-principal {
+        font-size: 55px;
+    }
+
+    .ttl-secundario {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ttl-principal {
+        font-size: 53px;
+    }
+
+    .ttl-secundario {
+        font-size: 24px;
     }
 
     .ttl-introducao {

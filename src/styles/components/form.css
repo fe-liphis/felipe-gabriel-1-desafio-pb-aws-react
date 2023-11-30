@@ -20,6 +20,10 @@ legend.ttl-form {
     margin-bottom: 1rem;
 }
 
+figure {
+    width: fit-content;
+}
+
 .input-radio {
     appearance: none;
     background: var(--cor-input-nao-selecionado);
