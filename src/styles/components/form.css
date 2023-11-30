@@ -74,7 +74,7 @@ figure {
 }
 
 .txt-area {
-    width: 80%;
+    width: 85%;
     height: 225px;
     border-radius: 20px;
     padding: 5%;
@@ -280,7 +280,6 @@ figure {
     }
 
     .txt-area {
-        width: 278px;
         height: 131px;
         border-radius: 20px;
         border: 1px solid #00000040;
