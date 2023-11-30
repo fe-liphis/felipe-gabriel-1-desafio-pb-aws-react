@@ -138,12 +138,20 @@
 
 @media (max-width: 375px) {
     .container-conteudo {
-        flex-direction: column;
         gap: 18px;
     }
 
     .container-texto {
-        width: 100%;
         gap: 16px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container-conteudo {
+        gap: 16px;
+    }
+
+    .container-texto {
+        gap: 14px;
     }
 }

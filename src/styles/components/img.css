@@ -244,10 +244,18 @@
     .personagem-2 {
         width: 350px;
     }
+
+    .personagem-3 {
+        width: 350px;
+    }
 }
 
 @media (max-width: 375px) {
     .personagem-2 {
+        width: 325px;
+    }
+
+    .personagem-3 {
         width: 325px;
     }
 }

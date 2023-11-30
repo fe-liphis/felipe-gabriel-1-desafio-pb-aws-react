@@ -195,3 +195,23 @@
         row-gap: 9px;
     }
 }
+
+@media (max-width: 480px) {
+    .btn-tamanho-pequeno {
+        width: 130px;
+        height: 26px;
+        font-size: 16px;
+    }
+
+    .btn-tamanho-grande {
+        width: 280px;
+        height: 26px;
+        font-size: 16px;
+    }
+
+    .lista-btns {
+        width: 280px;
+        column-gap: 18px;
+        row-gap: 9px;
+    }
+}
