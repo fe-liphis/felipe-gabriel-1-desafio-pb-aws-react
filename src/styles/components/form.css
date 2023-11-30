@@ -80,20 +80,18 @@ figure {
 }
 
 .inputs-finais-grande {
-    width: 444px;
+    width: 80%;
     height: 52px;
     border-radius: 20px;
     border: 1px solid #00000040;
-    font-size: 27px;
     padding-left: 15px;
 }
 
 .input-age {
-    width: 115px;
+    width: 25%;
     height: 52px;
     border-radius: 20px;
     border: 1px solid #00000040;
-    font-size: 27px;
     padding-left: 15px;
 }
 
@@ -119,6 +117,14 @@ figure {
     .txt-area {
         height: 200px;
     }
+
+    .inputs-finais-grande {
+        height: 40px;
+    }
+
+    .input-age {
+        height: 40px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -130,6 +136,14 @@ figure {
     .input-radio {
         width: 18px;
         height: 18px;
+    }
+
+    .inputs-finais-grande {
+        height: 35px;
+    }
+
+    .input-age {
+        height: 35px;
     }
 }
 
@@ -160,6 +174,14 @@ figure {
     .input-radio {
         width: 16px;
         height: 16px;
+    }
+
+    .inputs-finais-grande {
+        height: 30px;
+    }
+
+    .input-age {
+        height: 30px;
     }
 
     .campo-form {
