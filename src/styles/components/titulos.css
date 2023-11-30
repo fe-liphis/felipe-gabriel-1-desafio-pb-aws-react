@@ -14,13 +14,19 @@
 .ttl-introducao {
     font-size: 39px;
     text-align: center;
-    width: 15em;
+    word-wrap: break-word;
 }
 
 .ttl-form {
     font-size: 26px;
     word-break: keep-all;
     width: 20em;
+}
+
+@media (max-width: 1100px) {
+    .ttl-introducao {
+        font-size: 35px;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -30,6 +36,10 @@
 
     .ttl-secundario {
         font-size: 26px;
+    }
+
+    .ttl-introducao {
+        font-size: 30px;
     }
 }
 
@@ -41,6 +51,10 @@
     .ttl-secundario {
         font-size: 23px;
     }
+
+    .ttl-introducao {
+        font-size: 27px;
+    }
 }
 
 @media (max-width: 800px) {
@@ -51,6 +65,10 @@
     .ttl-secundario {
         font-size: 20px;
     }
+
+    .ttl-introducao {
+        font-size: 25px;
+    }
 }
 
 @media (max-width: 700px) {
@@ -60,6 +78,10 @@
 
     .ttl-secundario {
         font-size: 18px;
+    }
+
+    .ttl-introducao {
+        font-size: 23px;
     }
 }
 
@@ -76,6 +98,10 @@
 @media (max-width: 600px) {
     .ttl-principal {
         font-size: 60px;
+    }
+
+    .ttl-secundario {
+        font-size: 15px;
     }
 }
 
