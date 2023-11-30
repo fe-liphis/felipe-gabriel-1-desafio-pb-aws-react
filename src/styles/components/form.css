@@ -48,6 +48,7 @@ figure {
     background-image: url(../../../public/assets/seta/seta-inativa.svg);
     background-repeat: no-repeat;
     background-position: 15px;
+    background-size: 22px 14px;
     cursor: pointer;
 }
 
@@ -61,10 +62,9 @@ figure {
 
 .input-checkbox {
     appearance: none;
-    width: 1rem;
-    height: 1rem;
+    width: 22px;
+    height: 22px;
     background-color: var(--cor-input-nao-selecionado);
-    border-radius: 5px;
 }
 
 .input-checkbox:checked {
@@ -112,6 +112,7 @@ figure {
     .input-select {
         width: 360px;
         height: 45px;
+        background-size: 20px 12px;
     }
 }
 
@@ -132,6 +133,12 @@ figure {
     .input-select {
         width: 300px;
         height: 40px;
+        background-size: 18px 10px;
+    }
+
+    .input-checkbox {
+        width: 20px;
+        height: 20px;
     }
 }
 
@@ -166,7 +173,14 @@ figure {
 @media (max-width: 600px) {
     .input-select {
         width: 235px;
-        height: 35px;
+        height: 30px;
+        background-size: 16px 10px;
+        padding-left: 40px;
+    }
+
+    .input-checkbox {
+        width: 16px;
+        height: 16px;
     }
 
     .campo-form {
@@ -174,7 +188,7 @@ figure {
     }
 
     .opcoes-form {
-        gap: 8px;
+        gap: 5px;
     }
 
     .opcao-form {

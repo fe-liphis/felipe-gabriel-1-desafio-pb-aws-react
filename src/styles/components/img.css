@@ -26,6 +26,10 @@
     .personagem-3 {
         width: 500px;
     }
+
+    .personagem-4 {
+        width: 500px;
+    }
 }
 
 @media (max-width: 1100px) {
@@ -36,6 +40,10 @@
     .personagem-3 {
         width: 450px;
     }
+
+    .personagem-4 {
+        width: 450px;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -44,6 +52,10 @@
     }
 
     .personagem-3 {
+        width: 400px;
+    }
+
+    .personagem-4 {
         width: 400px;
     }
 }
@@ -60,6 +72,10 @@
     .personagem-3 {
         width: 350px;
     }
+
+    .personagem-4 {
+        width: 350px;
+    }
 }
 
 @media (max-width: 800px) {
@@ -74,6 +90,10 @@
     .personagem-3 {
         width: 300px;
     }
+
+    .personagem-4 {
+        width: 300px;
+    }
 }
 
 @media (max-width: 700px) {
@@ -86,6 +106,10 @@
     }
 
     .personagem-3 {
+        width: 250px;
+    }
+
+    .personagem-4 {
         width: 250px;
     }
 }
@@ -110,6 +134,10 @@
     }
 
     .personagem-3 {
+        width: 220px;
+    }
+
+    .personagem-4 {
         width: 220px;
     }
 }
