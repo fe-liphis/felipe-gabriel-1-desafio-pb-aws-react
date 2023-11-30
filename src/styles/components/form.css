@@ -303,4 +303,14 @@ figure {
         width: 265px;
         height: 30px;
     }
+
+    .inputs-finais-grande {
+        width: 250px;
+        height: 30px;
+    }
+
+    .input-age {
+        width: 70px;
+        height: 30px;
+    }
 }

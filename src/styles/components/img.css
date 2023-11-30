@@ -256,6 +256,10 @@
     .personagem-5 {
         width: 350px;
     }
+
+    .personagem-6 {
+        width: 350px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -274,6 +278,10 @@
     .personagem-5 {
         width: 325px;
     }
+
+    .personagem-6 {
+        width: 325px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -290,6 +298,10 @@
     }
 
     .personagem-5 {
+        width: 300px;
+    }
+
+    .personagem-6 {
         width: 300px;
     }
 }
