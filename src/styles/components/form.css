@@ -1,12 +1,14 @@
 .campo-form {
     display: flex;
     flex-direction: column;
+    width: fit-content;
     gap: 22px;
 }
 
 .opcoes-form {
     display: flex;
     flex-direction: column;
+    width: fit-content;
     gap: 16px;
 }
 
@@ -246,6 +248,7 @@ figure {
     }
 
     legend.ttl-form {
+        width: 260px;
         margin-bottom: 6px;
     }
 
