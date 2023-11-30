@@ -123,3 +123,15 @@
         gap: 24px;
     }
 }
+
+@media (max-width: 425px) {
+    .container-conteudo {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .container-texto {
+        width: 100%;
+        gap: 18px;
+    }
+}

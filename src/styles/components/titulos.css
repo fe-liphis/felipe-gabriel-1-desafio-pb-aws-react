@@ -156,3 +156,13 @@
         font-size: 16px;
     }
 }
+
+@media (max-width: 425px) {
+    .ttl-principal {
+        font-size: 48px;
+    }
+
+    .ttl-secundario {
+        font-size: 20px;
+    }
+}
