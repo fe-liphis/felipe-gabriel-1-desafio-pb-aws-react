@@ -305,3 +305,43 @@
         width: 300px;
     }
 }
+
+@media (max-height: 650px) {
+    .personagem-3 {
+        width: 275px;
+    }
+
+    .personagem-4 {
+        width: 275px;
+    }
+
+    .personagem-5 {
+        width: 275px;
+    }
+
+    .personagem-6 {
+        width: 275px;
+    }
+}
+
+@media (max-height: 600px) {
+    .personagem-1 {
+        width: 225px;
+    }
+
+    .personagem-3 {
+        width: 250px;
+    }
+
+    .personagem-4 {
+        width: 250px;
+    }
+
+    .personagem-5 {
+        width: 250px;
+    }
+
+    .personagem-6 {
+        width: 250px;
+    }
+}
