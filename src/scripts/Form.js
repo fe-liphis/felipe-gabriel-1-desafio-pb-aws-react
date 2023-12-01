@@ -1,15 +1,6 @@
 class Form {
     tela = new Tela();
 
-    statusAccount = "";
-    financialMarkets = "";
-    decideInvest = "";
-    resourcesTrainning = [];
-    lossInvestment = "";
-    fullName = "";
-    email = "";
-    age = "";
-
     initialState = {
         statusAccount : "",
         financialMarkets : "",
@@ -31,10 +22,6 @@ class Form {
                 this.tela.proximaTela();
         } else
             this.tela.proximaTela();
-    }
-
-    submitFormulario() {
-        console.log("Formulario enviado com sucesso");
     }
 
     validaInputs(indexTela) {
@@ -68,56 +55,56 @@ class Form {
             return true;
         }
         else {
-            this.financialMarkets = "";
-            this.statusAccount = "";
+            this.initialState.statusAccount = "";
+            this.initialState.financialMarkets = "";
             return false;
         }
     }
 
     validaTela4() {
-        this.decideInvest = document.getElementById("decide-invest").value;
+        this.initialState.decideInvest = document.getElementById("decide-invest").value;
+        this.initialState.resourcesTrainning = [];
         const aux = document.querySelectorAll("input[name='resources-training']:checked");
-        aux.forEach(checkbox => this.resourcesTrainning.push(checkbox.value));
+        aux.forEach(checkbox => this.initialState.resourcesTrainning.push(checkbox.value));
         
-        if(this.resourcesTrainning.length !== 0) {
-            console.log(this.resourcesTrainning);
-            console.log(this.decideInvest);
+        if(this.initialState.resourcesTrainning.length !== 0) {
+            localStorage.setItem("formulario", JSON.stringify({...this.initialState,decideInvest:this.initialState.decideInvest, resourcesTrainning:this.initialState.resourcesTrainning}));
             return true;
         } 
+
         else {
-            this.decideInvest = "";
-            this.resourcesTrainning = [];
+            this.initialState.decideInvest = "";
+            this.initialState.resourcesTrainning = [];
             return false;
         }
     }
 
     validaTela5() {
-        this.lossInvestment = document.getElementById("loss-investment").value;
+        this.initialState.lossInvestment = document.getElementById("loss-investment").value;
         
-        if(this.lossInvestment.length !== 0) {
-            console.log(this.lossInvestment);
+        if(this.initialState.lossInvestment.length !== 0) {
+            localStorage.setItem("formulario", JSON.stringify({...this.initialState,lossInvestment:this.initialState.lossInvestment}));
             return true;
         } 
         else {
-            this.lossInvestment = "";
+            this.initialState.lossInvestment = "";
             return false;
         }
     }
 
     validaTela6() {
-        this.fullName = document.getElementById("full-name").value;
-        this.email = document.getElementById("email").value;
-        this.age = document.getElementById("age").value;
+        this.initialState.fullName = document.getElementById("full-name").value;
+        this.initialState.email = document.getElementById("email").value;
+        this.initialState.age = document.getElementById("age").value;
 
-        if(this.fullName && this.email && this.age) {
-            this.submitFormulario();
+        if(this.initialState.fullName && this.initialState.email && this.initialState.age) {
+            localStorage.setItem("formulario", JSON.stringify({...this.initialState,fullName: this.initialState.fullName, email: this.initialState.email, age: this.initialState.age}));
             return true;
         }
         else {
-            this.fullName = "";
-            this.email = "";
-            this.age = "";
-            console.log("false");
+            this.initialState.fullName = "";
+            this.initialState.email = "";
+            this.initialState.age = "";
             return false;
         }
     }
