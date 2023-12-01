@@ -97,6 +97,171 @@ figure {
     padding-left: 15px;
 }
 
+@media (max-width: 2000px) {
+    .input-select {
+        width: 710px;
+        height: 80px;
+        background-size: 30px 20px;
+        padding-left: 70px;
+        background-position: 25px;
+    }
+
+    .input-checkbox {
+        width: 32px;
+        height: 32px;
+    }
+
+    .input-radio {
+        width: 32px;
+        height: 32px;
+    }
+
+    .inputs-finais-grande {
+        width: 33vw;
+        height: 70px;
+        padding-left: 25px;
+    }
+
+    .input-age {
+        width: 8vw;
+        height: 70px;
+        padding-left: 25px;
+    }
+}
+
+@media (max-width: 1800px) {
+    .opcao-form {
+        gap: 22px;
+    }
+
+    .input-select {
+        width: 650px;
+        height: 75px;
+        padding-left: 65px;
+        background-position: 20px;
+    }
+
+    .input-checkbox {
+        width: 31px;
+        height: 31px;
+    }
+
+    .input-radio {
+        width: 31px;
+        height: 31px;
+    }
+
+    .inputs-finais-grande {
+        width: 33vw;
+        height: 65px;
+    }
+
+    .input-age {
+        width: 8vw;
+        height: 65px;
+    }
+}
+
+@media (max-width: 1700px) {
+    .input-select {
+        width: 615px;
+        height: 75px;
+        background-size: 30px 20px;
+        padding-left: 65px;
+        background-position: 20px;
+    }
+
+    .input-checkbox {
+        width: 29px;
+        height: 29px;
+    }
+
+    .input-radio {
+        width: 29px;
+        height: 29px;
+    }
+
+    .inputs-finais-grande {
+        width: 33vw;
+        height: 65px;
+    }
+
+    .input-age {
+        width: 8vw;
+        height: 65px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .input-select {
+        width: 580px;
+        height: 70px;
+        background-size: 28px 19px;
+        padding-left: 62px;
+        background-position: 20px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .input-select {
+        width: 525px;
+        height: 60px;
+        background-size: 26px 17px;
+        padding-left: 55px;
+        background-position: 20px;
+    }
+
+    .input-checkbox {
+        width: 27px;
+        height: 27px;
+    }
+
+    .input-radio {
+        width: 27px;
+        height: 27px;
+    }
+
+    .inputs-finais-grande {
+        height: 55px;
+    }
+
+    .input-age {
+        height: 55px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .input-select {
+        width: 485px;
+    }
+
+    .input-checkbox {
+        width: 25px;
+        height: 25px;
+    }
+
+    .input-radio {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .input-select {
+        width: 450px;
+    }
+
+    .input-checkbox {
+        width: 23px;
+        height: 23px;
+    }
+
+    .input-radio {
+        width: 23px;
+        height: 23px;
+    }
+}
+
 @media (max-width: 1100px) {
     .input-select {
         width: 385px;
@@ -118,6 +283,7 @@ figure {
     .input-select {
         width: 360px;
         height: 45px;
+        padding-left: 50px;
         background-size: 20px 12px;
     }
 
@@ -176,6 +342,8 @@ figure {
     .input-select {
         width: 280px;
         height: 40px;
+        padding-left: 45px;
+        background-position: 16.5px;
     }
     
     .input-radio {

@@ -10,6 +10,17 @@ class Form {
     email = "";
     age = "";
 
+    initialState = {
+        statusAccount : "",
+        financialMarkets : "",
+        decideInvest : "",
+        resourcesTrainning : [],
+        lossInvestment : "",
+        fullName : "",
+        email : "",
+        age : ""
+    }
+
     aguardaVerificacao() {
         let validacao;
 
@@ -46,13 +57,14 @@ class Form {
     }
 
     validaTela3() {
-        this.statusAccount = document.getElementById("status-account").value
-        this.financialMarkets = document.querySelector('input[name="financial-markets"]:checked');
+        this.initialState.statusAccount = document.getElementById("status-account").value
+        this.initialState.financialMarkets = document.querySelector('input[name="financial-markets"]:checked');
 
-        if(this.statusAccount && this.financialMarkets){
-            this.financialMarkets = this.financialMarkets.value;
-            console.log(this.statusAccount);
-            console.log(this.financialMarkets);
+        if(this.initialState.statusAccount && this.initialState.financialMarkets){
+            this.initialState.financialMarkets = this.initialState.financialMarkets.value;
+
+            localStorage.setItem("formulario", JSON.stringify({...this.initialState,statusAccount:this.initialState.statusAccount, financialMarkets:this.initialState.financialMarkets}));
+
             return true;
         }
         else {

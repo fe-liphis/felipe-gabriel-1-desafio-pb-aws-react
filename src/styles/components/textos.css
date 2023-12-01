@@ -4,17 +4,96 @@
 }
 
 .txt-introducao {
-    font-size: 28px;
     text-align: center;
     word-wrap: break-word;
+    width: 95%;
 }
 
 .txt-form {
-    font-size: 26px;
     font-family: var(--font);
     font-weight: var(--weight-texto);
 }
 
+@media (max-width: 2000px) {
+    .txt-introducao {
+        font-size: 43px;
+    }
+
+    .txt-form {
+        font-size: 41px;
+    }
+}
+
+@media (max-width: 1900px) {
+    .txt-introducao {
+        font-size: 41px;
+    }
+
+    .txt-form {
+        font-size: 39px;
+    }
+}
+
+@media (max-width: 1800px) {
+    .txt-introducao {
+        font-size: 39px;
+    }
+
+    .txt-form {
+        font-size: 37px;
+    }
+}
+
+@media (max-width: 1700px) {
+    .txt-introducao {
+        font-size: 37px;
+    }
+
+    .txt-form {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .txt-introducao {
+        font-size: 35px;
+    }
+
+    .txt-form {
+        font-size: 33px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .txt-introducao {
+        font-size: 33px;
+    }
+
+    .txt-form {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .txt-introducao {
+        font-size: 30px;
+    }
+
+    .txt-form {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 1300px) { 
+    .txt-introducao {
+        font-size: 28px;
+    }
+
+    .txt-form {
+        font-size: 26px;
+    }
+}
+ 
 @media (max-width: 1100px) {
     .txt-introducao {
         font-size: 26px;

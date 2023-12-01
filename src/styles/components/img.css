@@ -1,34 +1,200 @@
-.personagem-1 {
-    width: 431px;
-    height: fit-content;
+@media (max-width: 2000px) {
+    .personagem-1 {
+        width: 600px;
+    }
+
+    .personagem-2 {
+        width: 850px;
+    }
+
+    .personagem-3 {
+        width: 850px;
+    }
+
+    .personagem-4 {
+        width: 850px;
+    }
+
+    .personagem-5 {
+        width: 850px;
+    }
+
+    .personagem-6 {
+        width: 850px;
+    }
 }
 
-.personagem-2 {
-    width: 553px;
-    height: fit-content;
+@media (max-width: 1900px) {
+    .personagem-2 {
+        width: 800px;
+    }
+
+    .personagem-3 {
+        width: 800px;
+    }
+
+    .personagem-4 {
+        width: 800px;
+    }
+
+    .personagem-5 {
+        width: 800px;
+    }
+
+    .personagem-6 {
+        width: 800px;
+    }
 }
 
-.personagem-3 {
-    width: 553px;
-    height: fit-content;
+@media (max-height: 1000px) {
+    .personagem-1 {
+        width: 550px;
+    }
 }
 
-.personagem-4 {
-    width: 553px;
-    height: fit-content;
+@media (max-width: 1800px) {
+    .personagem-2 {
+        width: 750px;
+    }
+
+    .personagem-3 {
+        width: 750px;
+    }
+
+    .personagem-4 {
+        width: 750px;
+    }
+
+    .personagem-5 {
+        width: 750px;
+    }
+
+    .personagem-6 {
+        width: 750px;
+    }
 }
 
-.personagem-5 {
-    width: 553px;
-    height: fit-content;
+@media (max-width: 1700px) {
+    .personagem-2 {
+        width: 700px;
+    }
+
+    .personagem-3 {
+        width: 700px;
+    }
+
+    .personagem-4 {
+        width: 700px;
+    }
+
+    .personagem-5 {
+        width: 700px;
+    }
+
+    .personagem-6 {
+        width: 700px;
+    }
 }
 
-.personagem-6 {
-    width: 553px;
-    height: fit-content;
+@media (max-width: 1600px) {
+    .personagem-1 {
+        width: 550px;
+    }
+
+    .personagem-2 {
+        width: 650px;
+    }
+
+    .personagem-3 {
+        width: 650px;
+    }
+
+    .personagem-4 {
+        width: 650px;
+    }
+
+    .personagem-5 {
+        width: 650px;
+    }
+
+    .personagem-6 {
+        width: 650px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .personagem-1 {
+        width: 500px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .personagem-1 {
+        width: 450px;
+    }
+
+    .personagem-2 {
+        width: 600px;
+    }
+
+    .personagem-3 {
+        width: 600px;
+    }
+
+    .personagem-4 {
+        width: 600px;
+    }
+
+    .personagem-5 {
+        width: 600px;
+    }
+
+    .personagem-6 {
+        width: 600px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .personagem-1 {
+        width: 400px;
+        height: fit-content;
+    }
+
+    .personagem-2 {
+        width: 550px;
+        height: fit-content;
+    }
+
+    .personagem-3 {
+        width: 550px;
+        height: fit-content;
+    }
+
+    .personagem-4 {
+        width: 550px;
+        height: fit-content;
+    }
+
+    .personagem-5 {
+        width: 550px;
+        height: fit-content;
+    }
+
+    .personagem-6 {
+        width: 550px;
+        height: fit-content;
+    }
 }
 
 @media (max-width: 1200px) {
+    .personagem-1 {
+        width: 375px;
+    }
+
+    .personagem-2 {
+        width: 550px;
+    }
+
     .personagem-3 {
         width: 500px;
     }

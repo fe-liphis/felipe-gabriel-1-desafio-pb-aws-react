@@ -3,24 +3,144 @@
     font-weight: var(--weight-titulo);
 }
 
-.ttl-principal {
-    font-size: 111px;
-}
-
-.ttl-secundario {
-    font-size: 29px;
-}
-
 .ttl-introducao {
-    font-size: 39px;
     text-align: center;
     word-wrap: break-word;
 }
 
 .ttl-form {
-    font-size: 26px;
     width: 35ch;
     word-break: keep-all;
+}
+
+@media (max-width: 2000px) {
+    .ttl-principal {
+        font-size: 180px;
+    }
+
+    .ttl-secundario {
+        font-size: 40px;
+    }
+
+    .ttl-introducao {
+        font-size: 50px;
+    }
+
+    .ttl-form {
+        font-size: 40px;
+        width: 30ch;
+    }
+}
+
+@media (max-width: 1800px) {
+    .ttl-principal {
+        font-size: 160px;
+    }
+
+    .ttl-secundario {
+        font-size: 40px;
+    }
+
+    .ttl-introducao {
+        font-size: 50px;
+    }
+
+    .ttl-form {
+        font-size: 40px;
+        width: 30ch;
+    }
+}
+
+@media (max-width: 1700px) {
+    .ttl-principal {
+        font-size: 150px;
+    }
+
+    .ttl-secundario {
+        font-size: 35px;
+    }
+
+    .ttl-introducao {
+        font-size: 48px;
+    }
+
+    .ttl-form {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .ttl-principal {
+        font-size: 140px;
+    }
+
+    .ttl-secundario {
+        font-size: 33px;
+    }
+
+    .ttl-introducao {
+        font-size: 48px;
+    }
+
+    .ttl-form {
+        font-size: 35px;
+        width: 30ch;
+    }
+}
+
+@media (max-width: 1500px) {
+    .ttl-principal {
+        font-size: 130px;
+    }
+
+    .ttl-secundario {
+        font-size: 33px;
+    }
+
+    .ttl-introducao {
+        font-size: 44px;
+    }
+
+    .ttl-form {
+        font-size: 33px;
+        width: 30ch;
+    }
+}
+
+@media (max-width: 1400px) {
+    .ttl-principal {
+        font-size: 120px;
+    }
+
+    .ttl-secundario {
+        font-size: 30px;
+    }
+
+    .ttl-introducao {
+        font-size: 40px;
+    }
+
+    .ttl-form {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .ttl-principal {
+        font-size: 111px;
+    }
+
+    .ttl-secundario {
+        font-size: 26px;
+    }
+
+    .ttl-introducao {
+        font-size: 39px;
+    }
+
+    .ttl-form {
+        font-size: 26px;
+    }
 }
 
 @media (max-width: 1100px) {
