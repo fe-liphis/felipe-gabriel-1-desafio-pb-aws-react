@@ -17,6 +17,7 @@
 .container-texto {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 50%;
     gap: 44px;
@@ -28,7 +29,6 @@
     align-items: flex-start;
     gap: 33px;
 }
-
 
 
 @media (max-width: 1100px) {
