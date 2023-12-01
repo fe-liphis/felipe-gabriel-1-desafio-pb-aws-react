@@ -215,3 +215,13 @@
         row-gap: 9px;
     }
 }
+
+@media (max-width: 320px) {
+    .lista-btns {
+        column-gap: 14px;
+    }
+
+    .btn-tamanho-grande {
+        width: 275px;
+    }
+}

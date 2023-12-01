@@ -333,3 +333,9 @@ figure {
         height: 30px;
     }
 }
+
+@media (max-width: 320px) {
+    .txt-area {
+        margin: auto;
+    }
+}

@@ -286,23 +286,49 @@
 
 @media (max-width: 320px) {
     .personagem-2 {
-        width: 300px;
+        width: 290px;
     }
 
     .personagem-3 {
-        width: 300px;
+        width: 290px;
     }
 
     .personagem-4 {
-        width: 300px;
+        width: 290px;
     }
 
     .personagem-5 {
-        width: 300px;
+        width: 290px;
     }
 
     .personagem-6 {
-        width: 300px;
+        width: 290px;
+    }
+}
+
+@media (max-width: 300px) {
+    .personagem-1 {
+        width: 225px;
+    }
+
+    .personagem-2 {
+        width: 260px;
+    }
+
+    .personagem-3 {
+        width: 260px;
+    }
+
+    .personagem-4 {
+        width: 260px;
+    }
+
+    .personagem-5 {
+        width: 260px;
+    }
+
+    .personagem-6 {
+        width: 260px;
     }
 }
 
@@ -328,7 +354,7 @@
     .personagem-1 {
         width: 225px;
     }
-
+    
     .personagem-3 {
         width: 250px;
     }
