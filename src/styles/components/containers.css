@@ -119,8 +119,7 @@
     }
 
     .container-form {
-        align-items: center;
-        gap: 24px;
+        gap: 25px;
     }
 }
 
@@ -134,6 +133,10 @@
         width: 100%;
         gap: 18px;
     }
+
+    .container-form {
+        gap: 20px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -144,6 +147,10 @@
     .container-texto {
         gap: 16px;
     }
+
+    .container-form {
+        gap: 18px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -153,5 +160,9 @@
 
     .container-texto {
         gap: 14px;
+    }
+
+    .container-form {
+        gap: 16px;
     }
 }

@@ -1,25 +1,31 @@
 .personagem-1 {
     width: 431px;
+    height: fit-content;
 }
 
 .personagem-2 {
     width: 553px;
+    height: fit-content;
 }
 
 .personagem-3 {
     width: 553px;
+    height: fit-content;
 }
 
 .personagem-4 {
     width: 553px;
+    height: fit-content;
 }
 
 .personagem-5 {
     width: 553px;
+    height: fit-content;
 }
 
 .personagem-6 {
     width: 553px;
+    height: fit-content;
 }
 
 @media (max-width: 1200px) {
@@ -211,32 +217,26 @@
 @media (max-width: 480px) {
     .personagem-1 {
         width: 271px;
-        height: 416px;
     }
 
     .personagem-2 {
         width: 403px;
-        height: 350px;
     }
 
     .personagem-3 {
         width: 380px;
-        height: 363px;
     }
 
     .personagem-4 {
         width: 380px;
-        height: 363px;
     }
 
     .personagem-5 {
         width: 361px;
-        height: 340px;
     }
 
     .personagem-6 {
         width: 374px;
-        height: 353px;
     }
 }
 

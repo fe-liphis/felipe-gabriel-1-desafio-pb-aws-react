@@ -254,6 +254,7 @@ figure {
 
 @media (max-width: 480px) {
     .campo-form {
+        width: fit-content;
         gap: 6px;
     }
 
@@ -300,9 +301,7 @@ figure {
     }
 
     .txt-area {
-        height: 131px;
-        border-radius: 20px;
-        border: 1px solid #00000040;
+        height: 100px;
     }
 
     .inputs-finais-grande {
