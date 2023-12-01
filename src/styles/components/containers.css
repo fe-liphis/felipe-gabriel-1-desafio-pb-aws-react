@@ -181,3 +181,9 @@
         gap: 12px;
     }
 }
+
+@media (max-height: 600px) and (max-width: 1024px) and (min-width: 924px) {
+    .container-conteudo {
+        gap: 35px
+    }
+}
