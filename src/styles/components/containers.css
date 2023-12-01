@@ -39,7 +39,7 @@
 
 @media (max-width: 1000px) {
     .container-conteudo {
-        gap: 68px;
+        gap: 65px;
     }
 
     .container-texto {
@@ -164,6 +164,7 @@
 
     .container-form {
         gap: 16px;
+        align-items: center;
     }
 }
 
@@ -178,11 +179,5 @@
 
     .container-form {
         gap: 12px;
-    }
-}
-
-@media (max-width: 320px) {
-    .container-form {
-        align-items: center;
     }
 }

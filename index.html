@@ -61,11 +61,11 @@
             </figure>
 
             <section class="container-form">
-                <form class="container-form">
+                <form class="container-form" method="dialog">
                     <p class="campo-form">
                         <label class="titulo ttl-form" for="status-account">What is the status of your account?</label>
 
-                        <select name="status-account" id="status-account" class="txt-form input-select">
+                        <select name="status-account" id="status-account" class="txt-form input-select" required>
                             <option value="" disabled selected></option>
                             <option value="not-account">I have not created an account yet.</option>
                         </select>
@@ -77,7 +77,7 @@
                         <ul class="opcoes-form">
                             <li class="opcao-form">
                                 <input type="radio" name="financial-markets" class="input-radio financial-markets"
-                                    value="stock-market">
+                                    value="stock-market" required>
                                 <label for="financial-markets" class="txt-form">stock market</label>
                             </li>
                             <li class="opcao-form">
@@ -103,19 +103,19 @@
                         </ul>
                     </fieldset>
 
+                    <ul class="lista-btns">
+                        <li>
+                            <button type="button" class="btn btn-tamanho-pequeno btn-volta-tela">Back</button>
+                        </li>
+                        <li>
+                            <button type="submit" class="btn btn-tamanho-pequeno btn-prox-tela">Next</button>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-tamanho-grande btn-skip">Skip</button>
+                        </li>
+                    </ul>
                 </form>
 
-                <ul class="lista-btns">
-                    <li>
-                        <button class="btn btn-tamanho-pequeno btn-volta-tela">Back</button>
-                    </li>
-                    <li>
-                        <button class="btn btn-tamanho-pequeno btn-prox-tela">Next</button>
-                    </li>
-                    <li>
-                        <button class="btn btn-tamanho-grande btn-skip">Skip</button>
-                    </li>
-                </ul>
             </section>
         </section>
 
@@ -125,7 +125,7 @@
             </figure>
 
             <section class="container-form">
-                <form class="container-form">
+                <form class="container-form" method="dialog">
                     <p class="campo-form">
                         <label class="titulo ttl-form" for="decide-invest">How do you decide to invest?</label>
 
@@ -143,7 +143,7 @@
                         <ul class="opcoes-form">
                             <li class="opcao-form">
                                 <input type="checkbox" name="resources-training" class="input-checkbox"
-                                    value="books-and-articles">
+                                    value="books-and-articles" required>
                                 <label for="resources-training" class="txt-form">Books and articles</label>
                             </li>
                             <li class="opcao-form">
@@ -164,19 +164,21 @@
                             </li>
                         </ul>
                     </fieldset>
+
+                    <ul class="lista-btns">
+                        <li>
+                            <button type="button" class="btn btn-tamanho-pequeno btn-volta-tela">Back</button>
+                        </li>
+                        <li>
+                            <button type="submit" class="btn btn-tamanho-pequeno btn-prox-tela">Next</button>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-tamanho-grande btn-skip">Skip</button>
+                        </li>
+                    </ul>
                 </form>
 
-                <ul class="lista-btns">
-                    <li>
-                        <button class="btn btn-tamanho-pequeno btn-volta-tela">Back</button>
-                    </li>
-                    <li>
-                        <button class="btn btn-tamanho-pequeno btn-prox-tela">Next</button>
-                    </li>
-                    <li>
-                        <button class="btn btn-tamanho-grande btn-skip">Skip</button>
-                    </li>
-                </ul>
+
             </section>
         </section>
 
@@ -193,22 +195,24 @@
                             made a loss on
                             the investment, write down the details</label>
 
-                        <textarea name="loss-investment" id="loss-investment" maxlength="130"
-                            class="txt-area txt-form"></textarea>
+                        <textarea name="loss-investment" id="loss-investment" maxlength="130" class="txt-area txt-form"
+                            required></textarea>
                     </p>
+
+                    <ul class="lista-btns">
+                        <li>
+                            <button type="button" class="btn btn-tamanho-pequeno btn-volta-tela">Back</button>
+                        </li>
+                        <li>
+                            <button type="submit" class="btn btn-tamanho-pequeno btn-prox-tela">Next</button>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-tamanho-grande btn-skip">Skip</button>
+                        </li>
+                    </ul>
                 </form>
 
-                <ul class="lista-btns">
-                    <li>
-                        <button class="btn btn-tamanho-pequeno btn-volta-tela">Back</button>
-                    </li>
-                    <li>
-                        <button class="btn btn-tamanho-pequeno btn-prox-tela">Next</button>
-                    </li>
-                    <li>
-                        <button class="btn btn-tamanho-grande btn-skip">Skip</button>
-                    </li>
-                </ul>
+
             </section>
         </section>
 
@@ -218,33 +222,36 @@
             </figure>
 
             <section class="container-form">
-                <form class="container-form">
+                <form class="container-form" id="formEnvio" name="formEnvio">
                     <fieldset class="campo-form">
                         <p class="opcoes-form">
                             <label for="full-name" class="titulo ttl-form">Full Name:</label>
                             <input type="text" name="full-name" id="full-name" placeholder="Nasser Toghiri"
-                                class="txt-form inputs-finais-grande">
+                                class="txt-form inputs-finais-grande" required>
                         </p>
                         <p class="opcoes-form">
                             <label for="email" class="titulo ttl-form">Email:</label>
                             <input type="email" name="email" id="email" placeholder="N.Toghiri@Gmail.com"
-                                class="txt-form inputs-finais-grande">
+                                class="txt-form inputs-finais-grande" required>
                         </p>
                         <p class="opcoes-form">
                             <label for="age" class="titulo ttl-form">Age:</label>
-                            <input type="number" name="age" id="age" placeholder="-- --" class="txt-form input-age">
+                            <input type="number" name="age" id="age" placeholder="-- --" class="txt-form input-age"
+                                required>
                         </p>
                     </fieldset>
+
+                    <ul class=" lista-btns">
+                        <li>
+                            <button type="button" class="btn btn-tamanho-grande btn-volta-tela">Back</button>
+                        </li>
+                        <li>
+                            <input type="submit" name="submit" id="submit" value="Submit"
+                                class="btn btn-tamanho-grande" />
+                        </li>
+                    </ul>
                 </form>
 
-                <ul class=" lista-btns">
-                    <li>
-                        <button class="btn btn-tamanho-grande btn-volta-tela">Back</button>
-                    </li>
-                    <li>
-                        <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-tamanho-grande" />
-                    </li>
-                </ul>
             </section>
         </section>
 
