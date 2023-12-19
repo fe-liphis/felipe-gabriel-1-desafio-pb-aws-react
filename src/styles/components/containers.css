@@ -1,246 +1,250 @@
 .container-principal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 .container-conteudo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container-texto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }
 
 .container-form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 @media (max-width: 2000px) {
-    .container-conteudo {
-        gap: 130px;
-    }
+  .container-conteudo {
+    gap: 130px;
+  }
 
-    .container-texto {
-        gap: 45px;
-    }
+  .container-texto {
+    gap: 45px;
+  }
 
-    .container-form {
-        gap: 55px;
-    }
+  .container-form {
+    gap: 55px;
+  }
 }
 
 @media (max-width: 1800px) {
-    .container-conteudo {
-        gap: 120px;
-    }
+  .container-conteudo {
+    gap: 120px;
+  }
 
-    .container-texto {
-        gap: 40px;
-    }
+  .container-texto {
+    gap: 40px;
+  }
 
-    .container-form {
-        gap: 50px;
-    }
+  .container-form {
+    gap: 50px;
+  }
 }
 
 @media (max-width: 1700px) {
-    .container-conteudo {
-        gap: 100px;
-    }
+  .container-conteudo {
+    gap: 100px;
+  }
 
-    .container-texto {
-        gap: 35px;
-    }
+  .container-texto {
+    gap: 35px;
+  }
 
-    .container-form {
-        gap: 40px;
-    }
+  .container-form {
+    gap: 40px;
+  }
 }
 
 @media (max-width: 1600px) {
-    .container-conteudo {
-        gap: 85px;
-    }
+  .container-conteudo {
+    gap: 85px;
+  }
 }
 
 @media (max-width: 1500px) {
-    .container-conteudo {
-        gap: 75px;
-    }
+  .container-conteudo {
+    gap: 75px;
+  }
 
-    .container-form {
-        gap: 35px;
-    }
+  .container-form {
+    gap: 35px;
+  }
 }
 
 @media (max-width: 1300px) {
-    .container-conteudo {
-        gap: 65px;
-    }
+  .container-conteudo {
+    gap: 65px;
+  }
 
-    .container-form {
-        gap: 30px;
-    }
+  .container-form {
+    gap: 30px;
+  }
 }
 
-
 @media (max-width: 1100px) {
-    .container-conteudo {
-        gap: 60px;
-    }
+  .container-conteudo {
+    gap: 60px;
+  }
 }
 
 @media (max-width: 1000px) {
-    .container-conteudo {
-        gap: 60px;
-    }
+  .container-conteudo {
+    gap: 60px;
+  }
 }
 
 @media (max-width: 900px) {
-    .container-conteudo {
-        gap: 55px;
-    }
+  .container-conteudo {
+    gap: 55px;
+  }
 }
 
 @media (max-width: 850px) {
-    .container-conteudo {
-        gap: 50px;
-    }
+  .container-conteudo {
+    gap: 50px;
+  }
 }
 
 @media (max-width: 800px) {
-    .container-conteudo {
-        gap: 45px;
-    }
+  .container-conteudo {
+    gap: 45px;
+  }
 
-    .container-texto {
-        gap: 30px;
-    }
+  .container-texto {
+    gap: 30px;
+  }
 
-    .container-form {
-        gap: 25px;
-    }
+  .container-form {
+    gap: 25px;
+  }
 }
 
 @media (max-width: 700px) {
-    .container-conteudo {
-        gap: 35px;
-    }
+  .container-conteudo {
+    gap: 35px;
+  }
 
-    .container-texto {
-        gap: 25px;
-    }
+  .container-texto {
+    gap: 25px;
+  }
 }
 
 @media (max-width: 600px) {
-    .container-conteudo {
-        gap: 30px;
-    }
+  .container-conteudo {
+    gap: 30px;
+  }
 
-    .container-texto {
-        gap: 20px;
-    }
+  .container-texto {
+    gap: 20px;
+  }
 
-    .container-form {
-        gap: 20px;
-    }
+  .container-form {
+    gap: 20px;
+  }
 }
 
 @media (max-width: 550px) {
-    .container-conteudo {
-        gap: 20px;
-    }
+  .container-conteudo {
+    gap: 20px;
+  }
 }
 
 @media (max-width: 480px) {
-    .container-conteudo {
-        flex-direction: column;
-        gap: 25px;
-    }
+  .container-conteudo {
+    flex-direction: column;
+    gap: 25px;
+  }
 
-    .container-texto {
-        width: 100%;
-        gap: 22px;
-    }
+  .container-texto {
+    width: 100%;
+    gap: 22px;
+  }
 
-    .container-form {
-        gap: 25px;
-    }
+  .container-form {
+    gap: 25px;
+  }
 }
 
 @media (max-width: 425px) {
-    .container-conteudo {
-        flex-direction: column;
-        gap: 20px;
-    }
+  .container-conteudo {
+    flex-direction: column;
+    gap: 20px;
+  }
 
-    .container-texto {
-        width: 100%;
-        gap: 18px;
-    }
+  .container-texto {
+    width: 100%;
+    gap: 18px;
+  }
 
-    .container-form {
-        gap: 20px;
-    }
+  .container-form {
+    gap: 20px;
+  }
 }
 
 @media (max-width: 375px) {
-    .container-conteudo {
-        gap: 18px;
-    }
+  .container-conteudo {
+    gap: 18px;
+  }
 
-    .container-texto {
-        gap: 16px;
-    }
+  .container-texto {
+    gap: 16px;
+  }
 
-    .container-form {
-        gap: 18px;
-    }
+  .container-form {
+    gap: 18px;
+  }
 }
 
 @media (max-width: 320px) {
-    .container-conteudo {
-        gap: 16px;
-    }
+  .container-conteudo {
+    gap: 16px;
+  }
 
-    .container-texto {
-        gap: 14px;
-    }
+  .container-texto {
+    gap: 14px;
+  }
 
-    .container-form {
-        gap: 16px;
-        align-items: center;
-    }
+  .container-form {
+    gap: 16px;
+    align-items: center;
+  }
+
+  .container-principal {
+    width: 95vw;
+    margin: auto;
+  }
 }
 
 @media (max-height: 600px) and (max-width: 480px) {
-    .container-conteudo {
-        gap: 12px;
-    }
+  .container-conteudo {
+    gap: 12px;
+  }
 
-    .container-texto {
-        gap: 12px;
-    }
+  .container-texto {
+    gap: 12px;
+  }
 
-    .container-form {
-        gap: 12px;
-    }
+  .container-form {
+    gap: 12px;
+  }
 }
 
 @media (max-height: 600px) and (max-width: 1024px) and (min-width: 924px) {
-    .container-conteudo {
-        gap: 35px
-    }
+  .container-conteudo {
+    gap: 35px;
+  }
 }
